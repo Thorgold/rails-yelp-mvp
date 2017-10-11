@@ -1,0 +1,52 @@
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS partials
+@import "layouts/index";
+@import "components/index";
+@import "pages/index";
+
+
+body {
+  text-align: center;
+}
+
+ul li {
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li a:hover {
+  color: red;
+  text-transform: uppercase;
+}
+
+input {
+
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.row {
+  padding-right: 450px;
+  padding-left: 450px;
+}
+
+.btn-primary {
+  margin-left: 150px;
+  margin-top: 10px;
+}
